@@ -19,10 +19,10 @@ public class EsController {
     @GetMapping("/es")
     public String testHigh() throws IOException{
         String source = "{\n" +
-                "  \"name\" : \"这一刀很帅\",\n" +
+                "  \"name\" : \"这一刀,会很帅\",\n" +
                 "  \"price\" : 300,\n" +
                 "  \"num\" : 800,\n" +
-                "  \"date\" : \"2019-07-28\"\n" +
+                "  \"date\" : \"2023-07-07\"\n" +
                 "}";
 
         IndexResponse response = service.addDoc("idx_clouthing", source);
