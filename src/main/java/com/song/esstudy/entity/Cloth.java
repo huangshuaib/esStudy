@@ -3,7 +3,10 @@ package com.song.esstudy.entity;
 import com.alibaba.fastjson.annotation.JSONField;
 
 import java.util.Date;
-
+/**
+ * @author huangshuai
+ * @date 2023/7/7
+ */
 public class Cloth {
 
     @JSONField(ordinal = 0)

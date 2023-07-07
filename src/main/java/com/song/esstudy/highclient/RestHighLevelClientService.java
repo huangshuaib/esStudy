@@ -1,11 +1,6 @@
 package com.song.esstudy.highclient;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
-import org.elasticsearch.action.bulk.BulkRequest;
-import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.index.IndexRequest;
@@ -32,7 +27,10 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.Map;
-
+/**
+ * @author huangshuai
+ * @date 2023/7/7
+ */
 @Service
 public class RestHighLevelClientService {
 
